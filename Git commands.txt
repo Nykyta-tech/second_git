@@ -131,7 +131,28 @@
 
 64 git stash apply возвращает изменения в файле из git хранилища 
 
-65 
 65 git add -u - добавляет все файлы которые бли в индексе и были изменены альтернатива команде git add (Git\ conmmands.txt -  название файла)
+
+66 git commit -m "Added Stash command descriptions" - 
+
+67 добавляем текстовый докумет test.txt в репозиторий
+
+68 затем пишем команду  touch .gitignore - это позволит нам создать файл в который мы сможем указывать названия других файлов и репозиторий будет их игнорировать
+
+69 git add .gitignore -  эта комана добавит файл .gitignore  в репозиторий
+
+70 git commit -m "Added .gitignore" -  эта команда сделает коммит в репозиторий а именно папку  .gitignore
+
+71 git push origin master -  нужно добавить файл .gitignore на GitHab
+
+72  в репозитории содаем папку - IDE, в этой папке создаем 2 () файла и под папку() с файлом ()
+
+73 затем добавляем это все в .gitignore, пишем команду  git add -u, и теперь у нас все новые папки и файлы в файле .gitignore и на репозиторий не засоряется
+
+74 git commit -m "Excluded IDE files in .gitignore" - 
+
+75  сохраняем все на  GitHab  чез команду  git push origin master
+
+76 
 
 
