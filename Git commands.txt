@@ -125,3 +125,13 @@
 
 61 git pul origin master -  загружает изменени€ с √ит’аба
 
+62 git commin -m "Added Push and Pull command descriptions" - 
+
+63 git stash -  скрывает изменени€  в файле сохран€ет их в git хранилище
+
+64 git stash apply возвращает изменени€ в файле из git хранилища 
+
+65 
+65 git add -u - добавл€ет все файлы которые бли в индексе и были изменены альтернатива команде git add (Git\ conmmands.txt -  название файла)
+
+
